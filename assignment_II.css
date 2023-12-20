@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Afacad";
+   }
+   body {
+    background-color: #f7fdfc;
+   }
+   input,
+   select {
+    color: #737373;
+    border: 1px solid #ccc;
+   }
+   .container {
+    width: 1000px;
+    height: 520px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 3rem;
+    gap: 5rem;
+    /* background-color: red; */
+    padding: 30px;
+   }
+   .left {
+    width: 400px;
+    margin-top: 6rem;
+   }
+   .left .logo {
+    width: 70px;
+    height: 70px;
+   }
+   .left .logo img {
+    width: 100%;
+    border-radius: 50%;
+   }
+   .left h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: -0.8px;
+    
+    
+    }
+
+
+   .left .text h2 {
+    margin: 20px 0 20px 0;
+   }
+   .left .text p {
+    display: flex;
+    flex-direction: column;
+    color: #737373;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+   }
+   .right {
+    width: 430px;
+    /* height: 500px; */
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 9px #eceaea;
+    padding: 20px;
+   }
+   .right .label {
+    display: flex;
+   }
+   .right .label section {
+    display: flex;
+    flex-direction: column;
+   }
+   .s {
+    position: relative;
+   }
+   .icon2 {
+    position: absolute;
+    top: calc(55%);
+    right: 1.8rem;
+   }
+   input,
+   select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+   }
+   .label input,
+   select {
+    width: 200px;
+    margin: 10px 20px 16px 0;
+   }
+   .right .activity,
+   .right .activity1 {
+    display: flex;
+    flex-direction: column;
+   }
+   .activity input,
+   .activity1 select {
+    width: 420px;
+    margin-top: 10px;
+   }
+   .activity {
+    position: relative;
+   }
+   .icon {
+    position: absolute;
+    top: calc(60%);
+    right: 1.25rem;
+    cursor: pointer;
+   }
+   button {
+    background-color: #2ec4b6;
+    color: #fff;
+    width: 420px;
+    border: none;
+    padding: 10px 0;
+    border-radius: 1px;
+    cursor: pointer;
+   }
+   footer a {
+    color: #2ec4b6;
+   }
+   footer p {
+    margin-top: 7px;
+    font-size: 14px;
+    font-family: sofia;
+   }
+
+   /* General styles for larger screens */
+body {
+    font-family: 'Arial', sans-serif;
+    /* Add other styles as appropriate for larger screens */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    /* Additional styling for the main container */
+}
+
+/* Media query for screens with a maximum width of 767px (typical for mobile devices) */
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 14px; /* Adjust font size for improved readability on smaller screens */
+    }
+
+    .container {
+        width: 100%; /* Utilize full width for improved mobile layout */
+        /* Additional styling adjustments for smaller screens */
+    }
+
+    /* Additional responsive styles specific to mobile devices */
+}
+   .left .logo {
+    width: 50px;
+    height: 50px;
+  }
+  .container .left {
+    width: 327px;
+  }
+  .container .right {
+    width: 307px;
+    padding: 10px;
+    height: 680px;
+    border-radius: 0;
+  }
+  .container .right .label {
+    /* width: 327px; */
+    flex-direction:grid;
+    gap: 15px;
+  }
+  label {
+    width: 100px;
+  }
+  .right .activity1 select,
+  .activity input {
+    width: 40px;
+  }
+  button {
+    width: 100%;
+  }
+  .activity input {
+    width: 100%;
+  }
+  .activity1 select {
+    width: 100% !important;
+  }
+  footer {
+    display: block;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  .label input,
+  select {
+    padding: 5px;
+    width: 100%;
+  }
+ 
